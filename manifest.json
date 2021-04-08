@@ -1,0 +1,26 @@
+{
+    "short_name": "Simple PWA Clock",
+    "name": "A simple PWA clock",
+    "icons": [
+        {
+            "src": "/img/icons-128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "/img/icons-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/img/icons-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/index.html",
+    "background_color": "#fff",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#4c0080"
+}
