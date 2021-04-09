@@ -1,12 +1,12 @@
 const CACHE_NAME = 'pwa-clock-v1';
 
 const urlsToCache = [
-    '/',
-    '/index.html',
-    '/manifest.json',
-    '/css/style.css',
-    '/js/app.js',
-    '/js/register-sw.js'
+    '/pwa-clock/',
+    '/pwa-clock/index.html',
+    '/pwa-clock/manifest.json',
+    '/pwa-clock/css/style.css',
+    '/pwa-clock/js/app.js',
+    '/pwa-clock/js/register-sw.js'
 ];
 
 self.addEventListener('install', (e) => {
